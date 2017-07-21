@@ -3,5 +3,6 @@ env:
 
 build:
   ci:
-    - echo $foo1  
+    - echo $foo1 
+    - cat /tmp/ssh/00_sub 
 
